@@ -14,7 +14,7 @@ body {
   padding: 20px;
   width: 100%;
 }
-
+/* icon roots */
 a i {
   color: black;
 }
@@ -24,6 +24,9 @@ i:hover {
   transition: .3s;
 }
 
+.fa-brands {
+  color: black;
+}
 /* landing */
 header {
   width: 85%;
@@ -53,6 +56,7 @@ header {
   transition: .5s;
 }
 
+/* left and right href containers */
 .social-img {
   width: 1.6rem;
   height: 1.6rem;
@@ -76,9 +80,6 @@ header {
   margin: 5px auto 0 auto;
 }
 
-.fa-brands {
-  color: black;
-}
 
 .social-container i:hover {
   transform: translateY(-5px);
@@ -131,6 +132,8 @@ header {
 #about {
   margin: auto;
   width: 80ch;
+  line-height: 2.3;
+  font-size: 1.1rem;
 }
 
 #about h2 {
@@ -186,10 +189,13 @@ header {
   transform: translateX(-100px);
   border: 5px dotted black;
 }
-.skillset{
+
+.skillset {
   display: inline-flex;
-list-style: none;
-gap: 15px;
+  list-style: none;
+  gap: 15px;
+  flex-wrap: wrap;
+  padding-left: 0;
 }
 
 .blue {
@@ -280,10 +286,6 @@ h3 {
   box-shadow: 15px 10px #303030;
 }
 
-.aboutLetter {
-  font-size: 3rem;
-}
-
 #about-container {
   display: flex;
   width: 65%;
@@ -292,7 +294,7 @@ h3 {
   gap: 50px;
 }
 
-.project-description-1 {
+.project-description {
   width: 46ch;
   color: white;
   background-color: #303030;
@@ -312,7 +314,6 @@ h3 {
   padding-left: 0;
   flex-wrap: wrap;
 }
-
 
 /* EXTRA PROJECTS SECTION */
 section h3 {
@@ -348,8 +349,7 @@ section h3 {
 .contact-container {
   text-align: center;
   width: 60ch;
-  margin: 150px auto 100px;
-  auto;
+  margin: 150px auto 100px auto;
 }
 
 .contact-container h4 {
@@ -382,10 +382,6 @@ footer {
   gap: 15px;
 }
 
-.project-details-container{
-  text-align: left;
-}
-
 /* media query */
 @media only screen and (max-width: 700px) {
   .yellow {
@@ -402,8 +398,11 @@ footer {
 
   #about {
     width: 36ch;
-    text-align: center;
     margin: auto;
+  }
+
+  .skillset{
+    justify-content: center;
   }
 
   .portfolio {
@@ -434,10 +433,12 @@ footer {
     width: 207%;
     transform: translate(-80px, -75px);
   }
+
   .extra-project-card {
     width: 35ch;
   }
-  .project-skills{
+
+  .project-skills {
     width: 25ch;
   }
 }
@@ -452,14 +453,12 @@ footer {
     margin: 100px 0 0 0;
   }
 
-  .project-description-1 {
+  .project-description {
     width: 25ch;
   }
 
-
   #about {
     width: 80%;
-    text-align: center;
     margin: auto;
   }
 }

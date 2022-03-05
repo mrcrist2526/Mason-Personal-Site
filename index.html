@@ -19,10 +19,10 @@
 <body>
   <nav>
     <div class="navbar">
-    <a href="#about">About</a>
-    <a href="#my-work">Projects</a>
-    <a href="#contact">Contact</a>
-    <a href="#">Blog</a>
+      <a href="#about">About</a>
+      <a href="#my-projects">Projects</a>
+      <a href="#contact">Contact</a>
+      <a href="https://thawing-inlet-07561.herokuapp.com/">Blog</a>
     </div>
   </nav>
   <!-- fixed SM and Email elements -->
@@ -59,13 +59,29 @@
   <p class="arrow-tip">⬸</p>
   </section>
   <section id="about">
-  <h2>About</h2>
-  <p class="about-me">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-    Ut non ipsum felis. Curabitur sed tristique tortor. Duis et fermentum erat.
-    Proin urna nibh, pharetra vel ligula sit amet, dignissim ultrices tellus.
-    Aliquam blandit vulputate leo a viverra. Nam placerat orci ac nisl tempus
-    iaculis. Vestibulum ut venenatis ligula.</p>
-    <p>Familiar With:</p>
+    <h2>About</h2>
+    <p>Self-taught hobbyist developer looking to make it
+      a profession.</p>
+    <p>Learning to play the guitar introduced me to the excitement that comes
+      with creativity and problem-solving. Web development is where I found a
+      passion for it. Very few things are as exciting as seeing an element fall
+      perfectly into place, getting a correct output logged in the console,
+      or figuring out a problem I thought was hopeless.</p>
+      <p> I graduated with a journalism-specific degree from Purdue University Northwest
+      in 2021 amid the early pandemic. I was introduced to code by a friend of mine
+      around that same time. I began writing articles for a local paper after graduation
+      and would browsed through MDN Web Docs in my spare time.</p>
+      <p> Something I used to think was magic started making sense. The first time I got
+      "Hello world" to pop up in my browser I was hooked, but still full of questions.
+      These questions took me to YouTube Videos, Udemy courses, StackOverflow, and back
+      to the documentation. Six months later, it's making sense, but I know I will always
+      be learning.</p>
+      <p> Lately, I have been working through Marjin Haverbeke's Eloquent
+       Javascript to clean up my code, experimenting with IoT projects to learn
+       more about computer hardware, and coding up my grandmas app ideas like
+       the one below.</p>
+ </p>
+    <p style="color:#D9534F">Familiar With:</p>
     <ul class="skillset">
       <li>HTML/CSS</li>
       <li>Javascript</li>
@@ -73,27 +89,30 @@
       <li>MongoDb</li>
       <li>Version Control</li>
       <li>Implementing API's</li>
+      <li>Adobe ill.</li>
+      <li>Encrption/hashing</li>
+      <li>Passport</li>
     </ul>
-</div>
+    </div>
 
-</section>
+  </section>
 
   <!--  -->
-  <section id="my-work">
-      <div class="portfolio">
+  <section id="my-projects">
+    <div class="portfolio">
       <div class="">
         <h3>Featured <span style="color:#D9534F">Projects</span></h3>
       </div>
       <div class="project-card">
         <img class="portfolio-imgs" src="images/recipeGeneratorSnippet.PNG" alt="">
-        <div class="project-details-container">
+        <div>
           <h4>Recipe Generator</h4>
-          <div class="project-description-1">
+          <div class="project-description">
             <p> Forget that trip to the grocery store.
               Cook with what you have lying around! This recipe finder utilizes
               the <a style="text-decoration: none; color: #D9534F" href="https://spoonacular.com/food-api">
                 Spoonacular API</a> to find recipies that include the
-                ingredients you have on hand. </p>
+              ingredients you have on hand. </p>
           </div>
           <ul class="project-skills">
             <li>Express</li>
@@ -104,37 +123,37 @@
 
           </ul>
           <div class="link-icons">
-          <a href="#"><i class="fa-brands fa-github fa-2x"></i></a>
-          <a href="https://infinite-reef-46608.herokuapp.com/"><i class="fa-solid fa-arrow-up-right-from-square fa-2x"></i></a>
-        </div>
+            <a href="#"><i class="fa-brands fa-github fa-2x"></i></a>
+            <a href="https://infinite-reef-46608.herokuapp.com/"><i class="fa-solid fa-arrow-up-right-from-square fa-2x"></i></a>
+          </div>
 
         </div>
 
       </div>
-
       <div class="project-card">
-
         <div class="project-details-container">
-          <h4>Splitter</h4>
+          <h4>To-Do List</h4>
 
-          <div class="project-description-1">
-            <p> Split the bill among friends with ease using Splitter. The
-              program takes your total bill, tip percentage and number of people
-              as inputs to calculate the total owed per-person. Challenge from
-               <a style="text-decoration: none; color: #D9534F;"
-                href="https://www.frontendmentor.io/dashboard/my-challenges?tab=completed">FrontEndMentor</a>
-              . Complete code by me.</p>
+          <div class="project-description">
+            <p> Simple CRUD to-do list application. Create seperate lists by
+              adding an extra request in the URL (/list-name).</p>
           </div>
           <ul class="project-skills">
+            <li>Express</li>
             <li>Javascript</li>
-            <li>HTML/CSS</li>
+            <li>MongoDB</li>
+            <li>Heroku</li>
+            <li>EJS</li>
+
           </ul>
           <div class="link-icons">
-          <a href="#"><i class="fa-brands fa-github fa-2x"></i></a>
-          <a href="#"><i class="fa-solid fa-arrow-up-right-from-square fa-2x"></i></a>
+
+            <a href="https://github.com/mrcrist2526/To-do-list"><i class="fa-brands fa-github fa-2x"></i></a>
+            <a href="https://sleepy-sea-90650.herokuapp.com/"><i class="fa-solid fa-arrow-up-right-from-square fa-2x"></i></a>
+          </div>
         </div>
-        </div>
-        <img class="portfolio-imgs" src="images/splitter.PNG" alt="">
+
+        <img class="portfolio-imgs" src="images/toDoList.PNG" alt="">
 
       </div>
 
@@ -143,8 +162,8 @@
         <div class="project-details-container">
           <h4>Simon</h4>
 
-          <div class="project-description-1">
-            <p> Press any key to start!. Simon says reapeat the color pattern displayed by the program. Good luck! </p>
+          <div class="project-description">
+            <p> Press any key to start! Simon says reapeat the color pattern displayed by the program. Good luck! </p>
           </div>
           <ul class="project-skills">
             <li>Javascript</li>
@@ -152,117 +171,115 @@
 
           </ul>
           <div class="link-icons">
-          <a href="#"><i class="fa-brands fa-github fa-2x"></i></a>
-          <a href="#"><i class="fa-solid fa-arrow-up-right-from-square fa-2x"></i></a>
-        </div>
+            <a href="https://github.com/mrcrist2526/Simon"><i class="fa-brands fa-github fa-2x"></i></a>
+            <a href="https://mrcrist2526.github.io/Simon/"><i class="fa-solid fa-arrow-up-right-from-square fa-2x"></i></a>
+          </div>
         </div>
 
       </div>
 
 
       <div class="project-card">
-        <div class="project-details-container">
-          <h4>Drum Kit</h4>
 
-          <div class="project-description-1">
-            <p> Tip calculator/Bill splitter challenge from <a style="text-decoration: none; color: #D9534F;" href="https://www.frontendmentor.io/dashboard/my-challenges?tab=completed">FrontEndMentor</a> built to solidify my understanding of JS
-              callback functions. </p>
+        <div class="project-details-container">
+          <h4>Splitter</h4>
+
+          <div class="project-description">
+            <p> Split the bill among friends with ease using Splitter. The
+              program takes your total bill, tip percentage and number of people
+              as inputs to calculate the total owed per-person. Challenge from
+              <a style="text-decoration: none; color: #D9534F;" href="https://www.frontendmentor.io/dashboard/my-challenges?tab=completed">Frontend Mentor</a>
+              . Complete code by me.
+            </p>
           </div>
           <ul class="project-skills">
-            <li>Express</li>
             <li>Javascript</li>
-            <li>Spoonacular API</li>
-            <li>Heroku</li>
-            <li>EJS</li>
-
+            <li>HTML/CSS</li>
           </ul>
           <div class="link-icons">
-
-          <a href="#"><i class="fa-brands fa-github fa-2x"></i></a>
-          <a href="#"><i class="fa-solid fa-arrow-up-right-from-square fa-2x"></i></a>
+            <a href="https://github.com/mrcrist2526/Tip-Calculator"><i class="fa-brands fa-github fa-2x"></i></a>
+            <a href="https://mrcrist2526.github.io/Tip-Calculator/"><i class="fa-solid fa-arrow-up-right-from-square fa-2x"></i></a>
+          </div>
         </div>
-        </div>
-
-        <img class="portfolio-imgs" src="images/drum-kit.PNG" alt="">
+        <img class="portfolio-imgs" src="images/splitter.PNG" alt="">
 
       </div>
+
     </div>
   </section>
+  <!-- Other Projects -->
   <section>
     <h3>Other <span style="color:#D9534F">Projects</span></h3>
     <div class="other-projects">
-<div class="extra-project-card">
-  <i class="code-icon fa-solid fa-code fa-2x"></i>
-  <h4>Huddle Landing Page</h4>
-  <p>A FrontEndMentor landing page challenge.</p>
-  <div class="link-icons">
-  <a href="https://github.com/mrcrist2526/Frontend-Mentor-Challenge-8"><i class="fa-brands fa-github fa-2x"></i></a>
-  <a href="https://mrcrist2526.github.io/Frontend-Mentor-Challenge-8/"><i class="fa-solid fa-arrow-up-right-from-square fa-2x"></i></a>
-</div>
-</div>
-<div class="extra-project-card">
-  <i class="code-icon fa-solid fa-code fa-2x"></i>
-  <h4>Social Section Card</h4>
-  <p>FrontEndMentor profile section card.</p>
-  <div class="link-icons">
-  <a href="https://github.com/mrcrist2526/Frontend-Mentor-Challenge-4"><i class="fa-brands fa-github fa-2x"></i></a>
-  <a href="https://mrcrist2526.github.io/Frontend-Mentor-Challenge-4/"><i class="fa-solid fa-arrow-up-right-from-square fa-2x"></i></a>
-</div>
-</div>
-<div class="extra-project-card">
-  <i class="code-icon fa-solid fa-code fa-2x"></i>
-  <h4>Subscription Detail Box</h4>
-  <p>FrontEndMentor subscription information box using grid display.</p>
-  <div class="link-icons">
+      <div class="extra-project-card">
+        <i class="code-icon fa-solid fa-code fa-2x"></i>
+        <h4>Huddle Landing Page</h4>
+        <p>A Frontend Mentor landing page challenge. Complete code by Mason C.</p>
+        <div class="link-icons">
+          <a href="https://github.com/mrcrist2526/Huddle-Landing-Page"><i class="fa-brands fa-github fa-2x"></i></a>
+          <a href="https://mrcrist2526.github.io/Huddle-Landing-Page/"><i class="fa-solid fa-arrow-up-right-from-square fa-2x"></i></a>
+        </div>
+      </div>
+      <div class="extra-project-card">
+        <i class="code-icon fa-solid fa-code fa-2x"></i>
+        <h4>Drum Kit</h4>
+        <p>Playable drum kit using JS switch statemtns.</p>
+        <div class="link-icons">
 
-  <a href="https://github.com/mrcrist2526/FrontendMentor-Challenge-6"><i class="fa-brands fa-github fa-2x"></i></a>
-  <a href="https://mrcrist2526.github.io/FrontendMentor-Challenge-6/"><i class="fa-solid fa-arrow-up-right-from-square fa-2x"></i></a>
-</div>
-</div>
-<div class="extra-project-card">
-  <i class="code-icon fa-solid fa-code fa-2x"></i>
-  <h4>Project Title</h4>
-  <p>Cook with what you have lying around! This recipe finder utilizes
-    the Spoonacular API to find recipies that include the incredients you have on hand.</p>
-    <div class="link-icons">
+          <a href="https://github.com/mrcrist2526/Drum-Kit"><i class="fa-brands fa-github fa-2x"></i></a>
+          <a href="https://mrcrist2526.github.io/Drum-Kit/"><i class="fa-solid fa-arrow-up-right-from-square fa-2x"></i></a>
+        </div>
+      </div>
+      <div class="extra-project-card">
+        <i class="code-icon fa-solid fa-code fa-2x"></i>
+        <h4>Social Section Card</h4>
+        <p>Frontend Mentor profile sectiion card challenge. Complete code by Mason C. </p>
+        <div class="link-icons">
+          <a href="https://github.com/mrcrist2526/Social-Card-Component"><i class="fa-brands fa-github fa-2x"></i></a>
+          <a href="https://mrcrist2526.github.io/Social-Card-Component/"><i class="fa-solid fa-arrow-up-right-from-square fa-2x"></i></a>
+        </div>
+      </div>
+      <div class="extra-project-card">
+        <i class="code-icon fa-solid fa-code fa-2x"></i>
+        <h4>Subscription Detail Box</h4>
+        <p>Frontend Mentor subscription information box using grid display.</p>
+        <div class="link-icons">
 
-  <a href="#"><i class="fa-brands fa-github fa-2x"></i></a>
-  <a href="#"><i class="fa-solid fa-arrow-up-right-from-square fa-2x"></i></a>
-</div>
-</div>
-<div class="extra-project-card">
-  <i class="code-icon fa-solid fa-code fa-2x"></i>
-  <h4>Project Title</h4>
-  <p>Cook with what you have lying around! This recipe finder utilizes
-    the Spoonacular API to find recipies that include the incredients you have on hand.</p>
-    <div class="link-icons">
+          <a href="https://github.com/mrcrist2526/Subscription-details-box"><i class="fa-brands fa-github fa-2x"></i></a>
+          <a href="https://mrcrist2526.github.io/Subscription-details-box/"><i class="fa-solid fa-arrow-up-right-from-square fa-2x"></i></a>
+        </div>
+      </div>
+      <div class="extra-project-card">
+        <i class="code-icon fa-solid fa-code fa-2x"></i>
+        <h4>Order Summary Card</h4>
+        <p>Order summary component. Challenge from Frontend Mentor code by Mason C.</p>
+        <div class="link-icons">
 
-  <a href="#"><i class="fa-brands fa-github fa-2x"></i></a>
-  <a href="#"><i class="fa-solid fa-arrow-up-right-from-square fa-2x"></i></a>
-</div>
-</div>
-<div class="extra-project-card">
-  <i class="code-icon fa-solid fa-code fa-2x"></i>
-  <h4>Project Title</h4>
-  <p>Cook with what you have lying around! This recipe finder utilizes
-    the Spoonacular API to find recipies that include the incredients you have on hand.</p>
-    <div class="link-icons">
+          <a href="https://github.com/mrcrist2526/Order-summary-card"><i class="fa-brands fa-github fa-2x"></i></a>
+          <a href="https://mrcrist2526.github.io/Order-summary-card/"><i class="fa-solid fa-arrow-up-right-from-square fa-2x"></i></a>
+        </div>
+      </div>
+      <div class="extra-project-card">
+        <i class="code-icon fa-solid fa-code fa-2x"></i>
+        <h4>Four Card Product Detail Page </h4>
+        <p>Challenge by Frontend Mentor. Code by Mason C.</p>
+        <div class="link-icons">
 
-  <a href="#"><i class="fa-brands fa-github fa-2x"></i></a>
-  <a href="#"><i class="fa-solid fa-arrow-up-right-from-square fa-2x"></i></a>
-</div>
-</div>
+          <a href="https://github.com/mrcrist2526/Four-Card-Section-Master"><i class="fa-brands fa-github fa-2x"></i></a>
+          <a href="https://mrcrist2526.github.io/Four-Card-Section-Master/"><i class="fa-solid fa-arrow-up-right-from-square fa-2x"></i></a>
+        </div>
+      </div>
 
     </div>
   </section>
   <section id="contact">
     <div class="contact-container">
-    <h4>Get in touch</h4>
-    <p>I am currently looking for job/internship opportunites.
-       Have a position available or a neat project in mind?
-     My inbox is always open! I look forward to hearing from you.</p>
-     <a href="mailto: mason.crist.25@gmail.com">Say Hi</a>
-   </div>
+      <h4>Get in touch</h4>
+      <p>I am currently looking for job/internship opportunites.
+        Have a position available or a neat project in mind?
+        My inbox is always open! I look forward to hearing from you.</p>
+      <a href="mailto: mason.crist.25@gmail.com">Say Hi</a>
+    </div>
   </section>
   <footer>Coded and designed by Mason Crist 2022</footer>
 </body>
